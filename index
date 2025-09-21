@@ -1,1 +1,30 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cleaning Services</title>
+</head>
+<body>
+    <h1>Cleaning Services</h1>
+    <form>
+        <label for="cleaning-services">Choose a cleaning service:</label>
+        <select id="cleaning-services" name="cleaning-services">
+            <option value="domestic-standard-cleaning">Domestic Standard Cleaning</option>
+            <option value="house-deep-cleaning">House Deep Cleaning</option>
+            <option value="window-cleaning">Window Cleaning</option>
+            <option value="oven-cleaning">Oven Cleaning</option>
+            <option value="mould-removal">Mould Removal</option>
+            <option value="carpet-rug-cleaning">Carpet & Rug Cleaning</option>
+            <option value="mattress-cleaning">Mattress Cleaning</option>
+            <option value="base-headboard-cleaning">Base & Headboard Cleaning</option>
+            <option value="upholstery-cleaning">Upholstery Cleaning</option>
+            <option value="ottoman-dining-wingback-cleaning">Ottoman, Dining Room Chairs & Wingback Chair Cleaning</option>
+            <option value="kitchen-deep-cleaning">Kitchen Deep Cleaning</option>
+            <option value="mobile-carwash">Mobile Carwash</option>
+            <option value="mobile-car-valet">Mobile Car Valet</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
